@@ -319,3 +319,11 @@ divi.addEventListener("click", () => {
 
 
 
+
+
+setInterval(() => {
+    window.location.reload();
+  }, 1800 * 1000);
+  
+  
+
