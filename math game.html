@@ -1,0 +1,48 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Math Game</title>
+  <link rel="stylesheet" href="math game.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title"> Math Game Challenge</h1>
+
+    <div class="mode-box glass">
+      <button class="mode-btn add">Addition</button>
+      <button class="mode-btn sub">Subtraction</button>
+      <button class="mode-btn multi">Multiplication</button>
+      <button class="mode-btn divi">Division</button>
+    </div>
+
+    <div class="display-box glass">
+      <div class="time">⏱ </div>
+      <div class="level">Level = 0</div>
+    </div>
+
+    <div class="main-box glass">
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+      <div class="box box3"></div>
+      <div class="box box4">=</div>
+      <input id="inputvl" class="box input" type="text"  />
+    </div>
+
+    <div class="footer">
+      <button class="action-btn submit">✅ Submit</button>
+      <button class="action-btn stop">⛔ Stop</button>
+      <button class="action-btn new-game" onclick="location.reload()">🔄 New Game</button>
+    </div>
+  </div>
+
+  <script src="math game.js"></script>
+</body>
+
+</html>
