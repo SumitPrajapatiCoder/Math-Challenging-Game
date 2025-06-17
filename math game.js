@@ -104,36 +104,6 @@ let delay2 = () => {
 };
 
 
-// let answer2 = () => {
-//     clearInterval(timer); 
-//     delay2(); 
-
-//     let rnd1 = Math.floor(Math.random() * 101);
-//     let rnd2 = Math.floor(Math.random() * 101);
-//     a.innerText = rnd1;
-//     b.innerText = rnd2;
-
-//     let sum = rnd1 - rnd2; 
-//     sign.innerText = "-";
-
-//     submit.onclick = () => {
-//         let x = parseInt(c.value);
-//         if (sum === x) {
-//             c.value = ""; 
-//             c.style.fontSize = "1.5rem";
-//             c.style.backgroundColor = "limegreen";
-//             c.style.color = "white";
-//             score++;
-//             lev.innerText = `Level = ${score}`;
-//             answer2();
-//         } else {
-//             cc();
-//         }
-//     };
-// };
-
-
-
 
 let answer2 = () => {
     clearInterval(timer);
@@ -246,33 +216,6 @@ let delay4 = () => {
 };
 
 
-// let answer4 = () => {
-//     clearInterval(timer); 
-//     delay4(); 
-
-//     let rnd1 = Math.floor(Math.random() * 20);
-//     let rnd2 = Math.floor(Math.random() * 10);
-//     a.innerText = rnd1;
-//     b.innerText = rnd2;
-
-//     let sum = parseInt(rnd1 / rnd2); 
-//     sign.innerText = "/";
-
-//     submit.onclick = () => {
-//         let x = parseInt(c.value);
-//         if (sum === x) {
-//             c.value = ""; 
-//             c.style.fontSize = "1.5rem";
-//             c.style.backgroundColor = "limegreen";
-//             c.style.color = "white";
-//             score++;
-//             lev.innerText = `Level = ${score}`;
-//             answer4();
-//         } else {
-//             cc();
-//         }
-//     };
-// };
 
 
 let answer4 = () => {
